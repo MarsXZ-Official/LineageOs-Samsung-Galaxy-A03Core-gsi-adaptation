@@ -1,6 +1,6 @@
 # **Адаптация LineageOS GSI для Samsung Galaxy A03 Core**
 
-## 📱 Неофициально поддерживается: **MarsXz**
+## 📱 Неофициальный мейнтейнер: MarsXz
 ## Базовый GSI от **[Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/)**
 
 ---
