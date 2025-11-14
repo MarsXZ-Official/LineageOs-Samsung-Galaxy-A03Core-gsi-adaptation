@@ -1,7 +1,7 @@
 # **LineageOS GSI Adaptation for Samsung Galaxy A03 Core**
 
 ## 📱 Maintained unofficially by **MarsXz**
-## 📱 Base GSI by **[Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/)**
+## Base GSI by **[Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/)**
 
 ---
 
@@ -61,6 +61,13 @@ Special thanks to the developers credited below.
 ## ⛔ Known Issues
 
 - **VoLTE is not supported**
+- **Incorrect mobile signal bar display** (always shows 2 bars regardless of actual signal strength)
+
+---
+
+## 🔧 Future Fixes
+
+The author may release a **Magisk module** in the future that could fix some of these issues.
 
 ---
 
