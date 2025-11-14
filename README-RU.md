@@ -6,7 +6,7 @@
 ---
 
 ## 🌍 Выберите язык
-**English**
+[English](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/main/README.md) | **Русский** .
 
 ---
 
