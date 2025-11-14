@@ -1,63 +1,73 @@
-# **LineageOS ROM (Treble) for Samsung Galaxy A03 Core (a3core)**
+# **LineageOS GSI Adaptation for Samsung Galaxy A03 Core**
 
-## 📱 • Maintained Unofficially by MarsXz.
-## 📱 • [GSI Maintained by Andyyan](https://sourceforge.net/projects/andyyan-gsi/files/).
+## 📱 Maintained unofficially by **MarsXz**
+## 📱 Base GSI by **[Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/)**
 
 ---
-### Choose your language
+
+## 🌍 Choose your language
 **English**
 
 ---
-This is a custom **AOSP-based** ROM, adapted specifically for the **Samsung Galaxy A03 Core**.
 
-**LineageOS GSI** *(by Andy Yan)*, tailored for the **Samsung Galaxy A03 Core**, offers a custom rom experience on trebledroid with a focus on performance and optimization.
+This project provides an adapted **AOSP/LineageOS GSI** specifically optimized for the **Samsung Galaxy A03 Core**.
 
----
-
-## **⚠️ • Disclaimer:**
-I am **not** responsible for any damage, bootloops, or bricked devices caused by using this GSI. **Use at your own risk**. **IF YOU DO NOT WANT TO MODIFY YOUR PHONE, JUST STOP READING AND CLOSE THE SITE!!! I WARNED YOU, ALL RESPONSIBILITY IS ON YOU!! REPEAT, YOU HAVE BEEN WARNED!!!!!!**
+The base system uses the **LineageOS GSI by Andy Yan**, with device-specific adjustments for better compatibility, stability and overall user experience.
 
 ---
 
-## **📃 • Documentation**
+## ⚠️ Disclaimer
 
-**Note:** **I am not** the maintainer of the GSI or ROM itself. I am an **UNOFFICIAL maintainer** of the device port. I will continue to update this GSI fork, including any my AIO module part for optimization if needed, and tweaks for better user experiance.
+You install this at your **own risk**.  
+I am **not responsible** for any bootloops, data loss, soft-brick, or hardware damage.
 
-### A big thanks to everyone tagged below for their contributions!
-
----
-## 💾 • Flashing steps
-
----
-## **⭐ • Features**
-
-- **Optimized** specifically for the Samsung Galaxy A03 Core.
-- **Removed unnecessary stuff** that don’t provide benefits for the Samsung Galaxy A03 Core.
-- Hidden Treble settings for a cleaner **full-ROM feel**.  
-  To access them, use the following command in a superuser terminal:
-    ```
-    su -c "pm enable me.phh.treble.app/.TopLevelSettingsActivity"
-    ```
-- Offline charging now redirects to system reboot.
+If you are not comfortable modifying your device — **stop here.**
 
 ---
 
-## **⛔ • Bugs**
+## 📃 Documentation
 
-- **No VoLTE support.**
-- No offline charging (now a feature due to redirection to system reboot instead of being stuck at the Samsung logo).
+I am **not** the original developer of LineageOS or the GSI itself.  
+I only maintain the **unofficial adaptation** specifically for the Samsung Galaxy A03 Core.
+
+Updates may include:
+- device-specific optimizations  
+- kernel/vendor compatibility fixes  
+- my optional AIO optimization module  
+- stability improvements  
+
+Special thanks to the developers credited below.
 
 ---
 
-## **♥️ • Acknowledgements**
-
-- **[LiteGApps](https://litegapps.github.io/)** – For providing almost **GApps** in older versions!
-- **[LineageOS](https://lineageos.org/)** - For **awesome ROM**!!
-- **[Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/lineage-20-td/)** – For **GSI**!
+## 💾 Flashing Steps
+*(To be added soon — if you want, I can write the full flashing guide for you.)*
 
 ---
 
-## **📋 • License**
+## ⭐ Features
 
-- **LineageOS** - [Apache 2.0](https://github.com/LineageOS/android_vendor_lineage?tab=License-1-ov-file#readme)
-- **LiteGApps** - [MIT](https://github.com/litegapps/litegapps?tab=MIT-1-ov-file#MIT-1-ov-file)
+- Device-specific optimizations for the **Samsung Galaxy A03 Core**
+- Removal of unnecessary components not used on this device
+- Hidden Treble Settings for a clean **full ROM-like** experience  
+  To enable Treble settings:
+  ```bash
+  su -c "pm enable me.phh.treble.app/.TopLevelSettingsActivity"
+- **Offline charging automatically reboots the device**  
+  *(prevents being stuck at the Samsung logo on some kernels)*
+
+---
+
+## ⛔ Known Issues
+
+- **VoLTE is not supported**
+- **Offline charging is not functional**  
+  *(device reboots instead of showing the charging screen)*
+
+---
+
+## ❤️ Acknowledgements
+
+- **[LiteGApps](https://litegapps.github.io/)** — for lightweight GApps packages
+- **[LineageOS](https://lineageos.org/)** — for their amazing open-source ROM
+- **[Andy Yan](https://sourceforge.net/projects/andyyan-gsi/files/)** — for maintaining the LineageOS GSI
