@@ -61,8 +61,6 @@ Special thanks to the developers credited below.
 ## ⛔ Known Issues
 
 - **VoLTE is not supported**
-- **Offline charging is not functional**  
-  *(device reboots instead of showing the charging screen)*
 
 ---
 
