@@ -64,7 +64,7 @@ Special thanks to the developers credited below.
 
 ---
 
-## ❤️ Acknowledgements
+## 📌 Sources
 
 - **[LiteGApps](https://litegapps.github.io/)** — for lightweight GApps packages
 - **[LineageOS](https://lineageos.org/)** — for their amazing open-source ROM
