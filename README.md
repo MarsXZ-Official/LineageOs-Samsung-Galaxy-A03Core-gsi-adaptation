@@ -1,0 +1,1 @@
+# lineageos-samsung-galaxy-a3core-gsi-adaptation
