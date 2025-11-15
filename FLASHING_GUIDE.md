@@ -18,10 +18,10 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 - Heimdall (for Linux/Mac)  
 - Samsung USB drivers  
 - USB cable  
-- **Archive containing super.img** (downloaded GSI)  
-- Fully charged device recommended  
+- **Archive containing super.img** (and boot.img if available) — downloaded GSI  
+- Recommended: fully charged phone  
 
-> ⚠️ When downloading the GSI, you will get an **archive**. **Do not fully extract it** — you only need to flash the **super.img** inside the archive.
+> ⚠️ When downloading the GSI, you will get an **archive**. You **do not need to extract everything**, flash **only the super.img** (and boot.img if present) inside the archive.
 
 ---
 
