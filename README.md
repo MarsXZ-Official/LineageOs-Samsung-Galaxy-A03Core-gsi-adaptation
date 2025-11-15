@@ -41,7 +41,7 @@ Special thanks to the developers credited below.
 ---
 
 ## 💾 Flashing Steps
-*(To be added soon — if you want, I can write the full flashing guide for you.)*
+[Click to view in English](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/main/FLASHING_GUIDE.md)
 
 ---
 
