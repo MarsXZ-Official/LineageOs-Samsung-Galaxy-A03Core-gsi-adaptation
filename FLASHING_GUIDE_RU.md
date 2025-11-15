@@ -1,4 +1,4 @@
-# 📘 **ПОЛНОЕ РУКОВОДСТВО ПО ПРОШИВКЕ GSI (super.img) ЧЕРЕЗ ODIN (Windows) И HEIMDALL (Linux/Mac)**
+# 📘 **ПОЛНОЕ РУКОВОДСТВО ПО ПРОШИВКЕ GSI ЧЕРЕЗ ODIN (Windows) И HEIMDALL (Linux/Mac)**
 
 Это руководство подходит для всех устройств Samsung с разблокированным загрузчиком и поддержкой Project Treble (GSI).
 
