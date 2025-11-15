@@ -42,7 +42,7 @@
 ---
 
 ## 💾 Жаңарту қадамдары
-*(Жақын арада қосылады — егер қаласаңыз, толық нұсқаулықты жаза аламын.)*
+[Қазақ тілінде көру үшін басыңыз](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/main/FLASHING_GUIDE_KZ.md)
 
 ---
 
