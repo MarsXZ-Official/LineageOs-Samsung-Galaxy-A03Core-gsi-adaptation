@@ -42,7 +42,7 @@
 ---
 
 ## 💾 Кроки прошивки
-*(Будуть додані пізніше — якщо бажаєте, можу написати повний гайд.)*
+[Натисніть, щоб подивитися українською](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/main/FLASHING_GUIDE_UA.md)
 
 ---
 
