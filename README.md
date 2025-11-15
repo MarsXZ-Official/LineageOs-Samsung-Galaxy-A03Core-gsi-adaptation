@@ -34,10 +34,8 @@ Updates may include:
 - device-specific optimizations  
 - kernel/vendor compatibility fixes  
 - my optional AIO optimization module  
-- stability improvements  
-
-Special thanks to the developers credited below.
-
+- stability improvements
+  
 ---
 
 ## 💾 Flashing Steps
