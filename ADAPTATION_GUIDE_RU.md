@@ -132,7 +132,7 @@ magiskboot repack boot.img
 
 ## 🔹 Шаг 7: Прошивка адаптированного GSI
 
-* Следуйте инструкции из [FLASHING_GUIDE.md] для **Odin (Windows)** или **Heimdall (Linux/Mac)**.
+* Следуйте инструкции из [FLASHING_GUIDE_RU](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE_RU.md) для **Odin (Windows)** или **Heimdall (Linux/Mac)**.
 
 ---
 
