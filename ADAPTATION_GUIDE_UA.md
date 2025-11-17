@@ -215,7 +215,7 @@ stat -c%s product.ext
 
 ## 🔹 Крок 7: Прошивка адаптованого GSI
 
-* Дотримуйтесь інструкцій у [FLASHING_GUIDE](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE.md) для **Odin (Windows)** або **Heimdall (Linux/Mac)**.
+* Дотримуйтесь інструкцій у [FLASHING_GUIDE_UA](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE_UA.md) для **Odin (Windows)** або **Heimdall (Linux/Mac)**.
 
 ---
 
