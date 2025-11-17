@@ -207,9 +207,9 @@ stat -c%s product.ext
 
 ## 🔹 Шаг 6: Подготовка к прошивке
 
-* Положите `new-boot.img` и адаптированный `super_new.img` или `super_new_sparse.img` в одну папку.
-* Переменуйте `new-boot.img` в `boot.img` и `super_new.img` или `super_new_sparse.img` в `super.img`
-* Упакуйте в `.tar` архив для **Odin (Windows)** или прошивайте напрямую через **Heimdall (Linux/Mac)**.
+* Поместите `new-boot.img` и адаптированный `super_new.img` (или `super_new_sparse.img`) в одну папку.  
+* Переименуйте `new-boot.img` → `boot.img`, а `super_new.img` / `super_new_sparse.img` → `super.img`.  
+* Упакуйте файлы в `.tar` архив для **Odin (Windows)** или прошивайте напрямую через **Heimdall (Linux/Mac)**.
 
 ---
 
