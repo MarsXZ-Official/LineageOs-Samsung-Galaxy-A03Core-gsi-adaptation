@@ -65,8 +65,8 @@
 
 ## **3.1. Скачивание и установка**
 
-- Скачать Odin (рекомендуется 3.14.4)  
-- Установить Samsung USB Drivers  
+- [Скачать Odin (рекомендуется 3.14.4)](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/tree/system/%D0%9Edin)  
+- [Установить Samsung USB Drivers](https://developer.samsung.com/android-usb-driver)  
 
 ---
 
