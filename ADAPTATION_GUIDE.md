@@ -139,18 +139,18 @@ GSI_Adaptation/
 2. Copy from the extracted archive:
 
 * `system.img`
-* `system_ext.img` (if exists)
-* `product.img` (if exists)
+* `system_ext.ext` (if exists)
+* `product.ext` (if exists)
 
 > ⚠️ Do **not** use `vendor.img` from the GSI author. Take it from your official AP firmware.
 
-3. Place all files (`system.img`, `system_ext.img`, `product.img`, `vendor.img`) into the **VM shared folder** (`/media/sf_GSI_Adaptation/`).
+3. Place all files (`system.img`, `system_ext.ext`, `product.ext`, `vendor.img`) into the **VM shared folder** (`/media/sf_GSI_Adaptation/`).
 
 ---
 
 ### 5.4: Build super.img with lpmake
 
-In the Ubuntu terminal, navigate to the shared folder with `system.img`, `vendor.img`, `system_ext.img`, `product.img` and run:
+In the Ubuntu terminal, navigate to the shared folder with `system.img`, `vendor.img`, `system_ext.ext`, `product.ext` and run:
 
 ```bash
 ./lpmake \
@@ -161,8 +161,8 @@ In the Ubuntu terminal, navigate to the shared folder with `system.img`, `vendor
   --group main:<group_size> \
   --partition system:readonly:<system_size>:main=system.img \
   --partition vendor:readonly:<vendor_size>:main=vendor.img \
-  --partition system_ext:readonly:<system_ext_size>:main=system_ext.img \
-  --partition product:readonly:<product_size>:main=product.img \
+  --partition system_ext:readonly:<system_ext_size>:main=system_ext.ext \
+  --partition product:readonly:<product_size>:main=product.ext \
   --output super_new.img
 ```
 
@@ -173,8 +173,8 @@ In the Ubuntu terminal, navigate to the shared folder with `system.img`, `vendor
 ```bash
 stat -c%s system.img
 stat -c%s vendor.img
-stat -c%s system_ext.img
-stat -c%s product.img
+stat -c%s system_ext.ext
+stat -c%s product.ext
 ```
 
 > These numbers are your `<system_size>`, `<vendor_size>`, `<system_ext_size>`, `<product_size>`.
