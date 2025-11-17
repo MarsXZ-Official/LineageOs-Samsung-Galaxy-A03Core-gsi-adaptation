@@ -43,6 +43,11 @@ Updates may include:
 
 ---
 
+## 💾 Adaptation Steps
+[Click to view in English](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/ADAPTATION_GUIDE.md)
+
+---
+
 ## ⭐ Features
 
 - Device-specific optimizations for the **Samsung Galaxy A03 Core**
