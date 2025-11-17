@@ -44,6 +44,11 @@
 
 ---
 
+## 💾 Кроки адаптації
+[Натисніть, щоб переглянути українською](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/ADAPTATION_GUIDE_UA.md)
+
+---
+
 ## ⭐ Можливості
 
 - Оптимізація під **Samsung Galaxy A03 Core**
