@@ -65,8 +65,8 @@
 
 ## **3.1. Жүктеу және орнату**
 
-- Odin жүктеу (ұсынылады 3.14.4)  
-- Samsung USB драйверлерін орнату  
+- [Odin жүктеу (ұсынылады 3.14.4)](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/tree/system/%D0%9Edin)  
+- [Samsung USB драйверлерін орнату](https://developer.samsung.com/android-usb-driver)  
 
 ---
 
