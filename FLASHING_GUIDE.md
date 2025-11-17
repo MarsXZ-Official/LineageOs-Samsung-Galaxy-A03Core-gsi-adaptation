@@ -65,8 +65,8 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 
 ## **3.1. Download and Install**
 
-- Download Odin (recommended version 3.14.4)  
-- Install Samsung USB Drivers  
+- [Download Odin (recommended version 3.14.4)](https://github.com/MarsXz8656/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/tree/system/%D0%9Edin)  
+- [Install Samsung USB Drivers](https://developer.samsung.com/android-usb-driver)  
 
 ---
 
