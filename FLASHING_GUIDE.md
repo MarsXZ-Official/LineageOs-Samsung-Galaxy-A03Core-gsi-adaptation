@@ -21,7 +21,12 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 - **Archive containing super.img** (and boot.img if available) — downloaded GSI  
 - Recommended: fully charged phone  
 
-> ⚠️ When downloading the GSI, you will get an **archive**. You **do not need to extract everything**, flash **only the super.img** (and boot.img if present) inside the archive.
+> ⚠️ When downloading the GSI, you will receive an **archive**.  
+> You **do NOT need to fully extract it** — extraction is required only once.  
+>
+> • On **Windows (Odin)**: flash the `LineageOs20/21.tar` file as it is.  
+> • On **Linux / macOS (Heimdall)**: extract `LineageOs20/21.tar`, and inside you will get  
+>   `boot.img` (if included) and `super.img` — these are the files you must flash.
 
 ---
 
