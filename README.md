@@ -10,6 +10,16 @@
 
 ---
 
+## 📺 Video Guide
+
+If you prefer to **watch** the flashing and adaptation steps instead of reading the guides, a full video walkthrough is available on YouTube.
+
+The video is primarily in **Russian**, but we recommend enabling **English subtitles** for a comprehensive guide.
+
+**[Watch the Full Video Guide on YouTube](https://youtu.be/JX0434AHy6A)**
+
+---
+
 This project provides an adapted **AOSP/LineageOS GSI** specifically optimized for the **Samsung Galaxy A03 Core**.
 
 The base system uses the **LineageOS GSI by Andy Yan**, with device-specific adjustments for better compatibility, stability and overall user experience.
@@ -18,7 +28,7 @@ The base system uses the **LineageOS GSI by Andy Yan**, with device-specific adj
 
 ## ⚠️ Disclaimer
 
-You install this at your **own risk**.  
+You install this at your **own risk**.  
 I am **not responsible** for any bootloops, data loss, soft-brick, or hardware damage.
 
 If you are not comfortable modifying your device — **stop here.**
@@ -27,15 +37,15 @@ If you are not comfortable modifying your device — **stop here.**
 
 ## 📃 Documentation
 
-I am **not** the original developer of LineageOS or the GSI itself.  
+I am **not** the original developer of LineageOS or the GSI itself.  
 I only maintain the **unofficial adaptation** specifically for the Samsung Galaxy A03 Core.
 
 Updates may include:
-- device-specific optimizations  
-- kernel/vendor compatibility fixes  
-- my optional AIO optimization module  
+- device-specific optimizations  
+- kernel/vendor compatibility fixes  
+- my optional AIO optimization module  
 - stability improvements
-  
+  
 ---
 
 ## 💾 Flashing Steps
@@ -52,12 +62,12 @@ Updates may include:
 
 - Device-specific optimizations for the **Samsung Galaxy A03 Core**
 - Removal of unnecessary components not used on this device
-- Hidden Treble Settings for a clean **full ROM-like** experience  
-  To enable Treble settings:
-  ```bash
-  su -c "pm enable me.phh.treble.app/.TopLevelSettingsActivity"
-- **Offline charging automatically reboots the device**  
-  *(prevents being stuck at the Samsung logo on some kernels)*
+- Hidden Treble Settings for a clean **full ROM-like** experience  
+  To enable Treble settings:
+  ```bash
+  su -c "pm enable me.phh.treble.app/.TopLevelSettingsActivity"
+- **Offline charging automatically reboots the device**  
+  *(prevents being stuck at the Samsung logo on some kernels)*
 
 ---
 
