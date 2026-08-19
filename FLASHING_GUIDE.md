@@ -44,10 +44,13 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 
 ## **2.2. Unlock Bootloader**
 
-1. Power off your device  
-2. Press **Volume Down + Volume Up + connect USB**  
-3. Press **Volume Up** to confirm  
-4. The device will wipe data and unlock the bootloader
+Make sure the phone is charged to at least 80%.
+Do NOT connect the USB cable! If it is connected, disconnect it, otherwise the phone will go into charging mode.
+
+1. Power off your phone completely.
+2. Wait 10 seconds.
+3. Press and hold **Volume Down + Power**.
+4. When the Samsung logo appears, release the Power button but keep holding **Volume Down** until the blue bootloader screen appears.
 
 ---
 
