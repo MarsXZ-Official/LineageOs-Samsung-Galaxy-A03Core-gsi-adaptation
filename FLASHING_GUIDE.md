@@ -45,27 +45,33 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 ## **2.2. Unlock Bootloader**
 
 Make sure the phone is charged to at least 80%.
-Do NOT connect the USB cable! If it is connected, disconnect it, otherwise the phone will go into charging mode.
+Do NOT connect the USB cable yet! If it is connected, disconnect it, otherwise the phone will go into charging mode.
 
-1. Power off your phone completely.
-2. Wait 10 seconds.
-3. Press and hold **Volume Down + Power**.
-4. When the Samsung logo appears, release the Power button but keep holding **Volume Down** until the blue bootloader screen appears.
+1. Power off your phone completely and wait 10 seconds.
+2. Press and hold **Volume Down + Power**.
+3. When the Samsung logo appears, release the **Power** button but keep holding **Volume Down** until the blue warning screen appears.
+4. **Connect the USB cable** to your PC.
+5. **LONG PRESS Volume Up** to enter "Device unlock mode".
+6. Press **Volume Up** once to confirm. 
+7. The device will wipe data, unlock the bootloader, and reboot automatically.
 
 ---
 
 ## **2.3. Wipe Data**
 
+*(Wait for the device to fully boot after unlocking, then power it off again).*
 1. Enter Recovery (**Volume Up + Power**)  
 2. Select **Wipe data / factory reset**
+3. Select **Factory data reset** to confirm
 
 ---
 
 ## **2.4. Enter Download Mode**
 
 1. Power off the device  
-2. Press **Volume Down + Volume Up + USB**  
-3. Press **Volume Up** to enter
+2. Press and hold **Volume Down + Volume Up** and **connect the USB cable**.
+3. When the blue warning screen appears, release the buttons.
+4. **SHORT PRESS Volume Up** to enter Download Mode for flashing.
 
 ---
 
