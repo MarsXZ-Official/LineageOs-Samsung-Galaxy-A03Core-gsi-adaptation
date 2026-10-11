@@ -193,7 +193,7 @@ heimdall detect
 Прошейте раздел `super`:
 
 ```bash
-heimdall flash --super super.img
+sudo heimdall flash --super super.img
 
 ```
 
@@ -202,7 +202,7 @@ heimdall flash --super super.img
 При необходимости, если в архиве был `boot.img`, прошейте и его:
 
 ```bash
-heimdall flash --boot boot.img
+sudo heimdall flash --boot boot.img
 
 ```
 
