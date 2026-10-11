@@ -1,4 +1,4 @@
-# 📘 **COMPLETE GUIDE TO FLASHING GSI VIA ODIN (Windows) AND HEIMDALL (Linux/Mac)**
+# 📘 **COMPLETE GUIDE TO FLASHING GSI VIA ODIN (Windows), ODIN4 (Linux), AND HEIMDALL (Mac)**
 
 This guide is suitable for all Samsung devices with an unlocked bootloader and Project Treble (GSI) support.
 
@@ -13,19 +13,18 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 # ✅ **1. Requirements**
 
 - Samsung device with unlocked bootloader  
-- PC with Windows or Linux/Mac  
-- Odin (for Windows)  
-- Heimdall (for Linux/Mac)  
-- Samsung USB drivers  
+- PC with Windows, Linux, or macOS  
+- Odin (for Windows / Linux) or Heimdall (for macOS)  
+- Samsung USB drivers (for Windows)  
 - USB cable  
-- **Archive containing super.img** (and boot.img if available) — downloaded GSI  
+- **Archive containing `super.img`** (and `boot.img` if available) — downloaded GSI  
 - Recommended: fully charged phone  
 
 > ⚠️ When downloading the GSI, you will receive an **archive**.  
-> You **do NOT need to fully extract it** — extraction is required only once.  
+> You **do NOT need to fully extract it** — the exact steps depend on your OS.  
 >
-> • On **Windows (Odin)**: flash the `LineageOs20/21.tar` file as it is.  
-> • On **Linux / macOS (Heimdall)**: extract `LineageOs20/21.tar`, and inside you will get  
+> • On **Windows / Linux (Odin / Odin4)**: flash the `LineageOs20/21.tar` file as it is.  
+> • On **macOS (Heimdall)**: extract `LineageOs20/21.tar`, and inside you will get  
 >   `boot.img` (if included) and `super.img` — these are the files you must flash.
 
 ---
@@ -114,23 +113,51 @@ If bootloop occurs → perform Wipe Data in Recovery.
 
 ---
 
-# 🐧 **4. Flashing via Heimdall (Linux/Mac)**
+# 🐧 **4. Flashing via Odin4 (Linux)**
 
-## **4.1. Install Heimdall**
+## **4.1. Download and Setup**
 
-### Ubuntu/Debian:
-
-```bash
-sudo apt install heimdall-flash
-```
-
-### Arch Linux:
+1. **Download Odin4:**  
+   Go to the [releases page](https://github.com/MarsXZ-Official/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/%D0%9Edin/Linux/odin4) and download the `odin4` file.
+2. **Make Odin4 executable:**  
+   Change the permissions of the binary file via terminal:
 
 ```bash
-sudo pacman -S heimdall
+chmod +x odin4
 ```
 
-### macOS (brew):
+3. **Move `odin4` to the `/bin` directory:**  
+   To make the program available from any location in the system, run:
+
+```bash
+sudo cp odin4 /bin
+```
+
+---
+
+## **4.2. Flashing Process**
+
+Run the following command:
+
+```bash
+sudo odin4 -a archive_name.tar --reboot
+```
+
+**Command breakdown:**
+
+- `sudo` — run as administrator (root)
+- `odin4` — calls the program itself
+- `-a` — specifies the flashing partition (AP)
+- `archive_name.tar` — path to your `.tar` file
+- `--reboot` — automatic reboot after a successful flash
+
+---
+
+# 🍏 **5. Flashing via Heimdall (macOS)**
+
+## **5.1. Install Heimdall**
+
+Open Terminal and install Heimdall with Homebrew:
 
 ```bash
 brew install heimdall
@@ -138,7 +165,7 @@ brew install heimdall
 
 ---
 
-## **4.2. Prepare Files for Flashing**
+## **5.2. Prepare Files for Flashing**
 
 1. You downloaded a `.tar` archive with the GSI.  
 2. Extract it:
@@ -159,19 +186,19 @@ cd ~/path_to_extracted_files
 
 ---
 
-## **4.3. Check Connection**
+## **5.3. Check Connection**
 
-Device must be in **Download Mode**:
+The device must be in **Download Mode**:
 
 ```bash
 heimdall detect
 ```
 
-If Heimdall shows *Device detected* — ready to flash.
+If Heimdall shows *Device detected* — the device is ready to flash.
 
 ---
 
-## **4.4. Flash super.img**
+## **5.4. Flash `super.img`**
 
 ```bash
 sudo heimdall flash --super super.img
@@ -187,7 +214,7 @@ sudo heimdall flash --boot boot.img
 
 ---
 
-## **4.5. Completion**
+## **5.5. Completion**
 
 Heimdall will show progress and automatically reboot the device.  
 
@@ -195,7 +222,7 @@ After reboot, ensure the device boots and the GSI is installed.
 
 ---
 
-## **4.6. Verify Installation**
+## **5.6. Verify Installation**
 
 - Device boots → everything is OK  
 - Bootloop → perform Wipe Data  
