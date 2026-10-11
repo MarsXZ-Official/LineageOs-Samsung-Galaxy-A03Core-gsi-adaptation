@@ -182,7 +182,7 @@ heimdall detect
 `super` бөлімін флештейік:
 
 ```bash
-heimdall flash --super super.img
+sudo heimdall flash --super super.img
 ```
 
 > ⚠️ Ескертпе: Кейбір Samsung құрылғыларында бөлім атауы `--super` немесе `--SUPER` болуы мүмкін. Егер қате болса, регистрді ауыстырып көріңіз.
@@ -190,7 +190,7 @@ heimdall flash --super super.img
 Қажет болған жағдайда, егер архивте `boot.img` бар болса, оны да флештей аласыз:
 
 ```bash
-heimdall flash --boot boot.img
+sudo heimdall flash --boot boot.img
 ```
 
 ### 5.5. Нәтижені тексеру
