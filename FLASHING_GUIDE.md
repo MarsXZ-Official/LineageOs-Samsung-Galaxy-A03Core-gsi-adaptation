@@ -4,7 +4,7 @@ This guide is suitable for all Samsung devices with an unlocked bootloader and P
 
 ---
 
-> # **⚠️ Disclaimer**
+> # ⚠️ **Disclaimer**
 > 
 > **You flash at your own risk. The author of this guide is not responsible for any device damage, data loss, or malfunction.**
 
