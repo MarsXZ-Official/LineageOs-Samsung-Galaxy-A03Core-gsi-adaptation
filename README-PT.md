@@ -65,8 +65,7 @@ As atualizações podem incluir:
   Para ativar o Treble Settings:
   ```bash
   su -c "pm enable me.phh.treble.app/.TopLevelSettingsActivity"
-
-```
+  ```
 
 * **O carregamento offline (com o aparelho desligado) reinicia o dispositivo automaticamente**
 *(evita travamentos no logotipo da Samsung em alguns kernels)*
