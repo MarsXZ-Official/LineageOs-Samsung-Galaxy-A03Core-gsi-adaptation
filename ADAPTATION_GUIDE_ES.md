@@ -223,7 +223,7 @@ Como resultado obtendrás un **`super.img` adaptado**, listo para flashearse jun
 
 ## 🔹 Paso 7: Flashear la GSI adaptada
 
-* Sigue las instrucciones de [FLASHING_GUIDE_ES](https://www.google.com/search?q=https://github.com/MarsXZ-Official/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE_ES.md) para **Odin (Windows)** o **Heimdall (Linux/Mac)**.
+* Sigue las instrucciones de [FLASHING_GUIDE_ES](https://github.com/MarsXZ-Official/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE_ES.md) para **Odin (Windows)** o **Heimdall (Linux/Mac)**.
 
 ---
 
