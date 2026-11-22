@@ -212,7 +212,3 @@ Heimdall mostrará el progreso y reiniciará el teléfono automáticamente.
 **La GSI ya está instalada y lista para usarse.**
 
 **Agora a GSI está instalada e pronta para uso.**
-
-```
-
-```
