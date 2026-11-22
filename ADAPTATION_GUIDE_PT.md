@@ -223,7 +223,7 @@ Como resultado, você terá o **`super.img` adaptado**, pronto para ser instalad
 
 ## 🔹 Passo 7: Instalar a GSI adaptada
 
-* Siga as instruções de [FLASHING_GUIDE_PT](https://www.google.com/search?q=https://github.com/MarsXZ-Official/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE_PT.md) para **Odin (Windows)** ou **Heimdall (Linux/Mac)**.
+* Siga as instruções de [FLASHING_GUIDE_PT](https://github.com/MarsXZ-Official/LineageOs-Samsung-Galaxy-A03Core-gsi-adaptation/blob/system/FLASHING_GUIDE_PT.md) para **Odin (Windows)** ou **Heimdall (Linux/Mac)**.
 
 ---
 
